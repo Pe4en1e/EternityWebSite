@@ -21,14 +21,14 @@ html{
 }
 
 .header {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    padding-bottom: 30px;
 }
 
 .header_wrapper {
-    margin-top: 55px;
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -59,11 +59,13 @@ html{
 }
 
 
+/* ИНТРО */
+
 .intro {
-    height: 100vh;
+    height: 90vh;
     background: url('../img/background.png') no-repeat center;
     background-size: cover;
-    padding-top: 270px;
+    padding-top: 170px;
 }
 
 .intro_title{
@@ -78,7 +80,7 @@ html{
 .intro_subtitle {
 
     padding-top: 20px;
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.80);
     font-family: Montserrat;
     font-size: 40px;
     font-style: normal;
@@ -89,3 +91,49 @@ html{
 }
 
 
+.intro_buttons{
+
+    padding-top: 50px;
+
+}
+
+
+.intro_button {
+
+
+
+}
+
+/* ВАНИЛА */
+
+
+.vanilla_server {
+
+    padding-top: 50px;
+
+}
+
+.vanilla_intro {
+
+    color: #AE91EC;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+
+.vanilla_into_vydel {
+
+
+    color: #ffffff73;
+    text-decoration: none;
+    
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
