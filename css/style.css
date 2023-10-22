@@ -45,7 +45,7 @@ html{
     color: #FFF;
     text-align: right;
     font-family: Montserrat;
-    font-size: 36px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -71,7 +71,7 @@ html{
 .intro_title{
     color: #FFF;
     font-family: Montserrat;
-    font-size: 76px;
+    font-size: 64px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -82,34 +82,22 @@ html{
     padding-top: 20px;
     color: rgba(255, 255, 255, 0.80);
     font-family: Montserrat;
-    font-size: 40px;
+    font-size: 34px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    max-width: 710px;
+    max-width: 600px;
 
 }
 
 
-.intro_buttons{
-
-    padding-top: 50px;
-
-}
-
-
-.intro_button {
-
-
-
-}
 
 /* ВАНИЛА */
 
 
 .vanilla_server {
 
-    padding-top: 50px;
+    padding-top: 60px;
 
 }
 
@@ -136,4 +124,94 @@ html{
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+}
+
+
+.vanilla_description {
+
+    padding-top: 25px;
+    display: flex;
+
+}
+
+.vanilla_description_text {
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    max-width: 600px;
+
+
+}
+
+
+.vanilla_description_block {
+
+    width: 450px;
+    height: 500px;
+    border-radius: 20px;
+    background: #1f1f1f;
+    margin-left: 40px;
+
+    padding: 20px;
+
+
+}
+
+.vdb_text {
+
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    text-align: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+
+.vdb_desc {
+
+    color: #AE91EC;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+    text-align: left;
+
+    padding-top: 10px;
+
+}
+
+
+.vdb_desc_dec {
+
+
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    max-width: 600px;
+    text-align: left;
+
+    padding-top: 10px;
+
 }
