@@ -1,6 +1,6 @@
 
 html{
-    background-color: black;
+    background-color: #121212;
     box-sizing: border-box;
 
 
@@ -52,6 +52,18 @@ html{
     text-decoration: none;
 }
 
+.header_item{
+
+    margin-right: 50px;
+}
+
+.header_item:last-child {
+
+    margin-right: 0;
+
+}
+
+
 .header_link:hover{
     transition: 0.5s;
     color: #AE91EC;
@@ -62,10 +74,10 @@ html{
 /* ИНТРО */
 
 .intro {
-    height: 90vh;
+    height: 600px;
     background: url('../img/background.png') no-repeat center;
     background-size: cover;
-    padding-top: 170px;
+    padding-top: 140px;
 }
 
 .intro_title{
@@ -129,8 +141,8 @@ html{
 
 .vanilla_description {
 
-    padding-top: 25px;
-    display: flex;
+    padding-top:55px;
+
 
 }
 
@@ -145,6 +157,8 @@ html{
 
     max-width: 600px;
 
+    margin-top: 110px;
+
 
 }
 
@@ -158,6 +172,9 @@ html{
     margin-left: 40px;
 
     padding: 20px;
+
+    float: right;
+    margin-top: -310px;
 
 
 }
@@ -214,4 +231,455 @@ html{
 
     padding-top: 10px;
 
+}
+
+
+.vanilla_join {
+    
+    margin-top: 30px;
+
+    width: 400px;
+    height: 50px;
+
+    border-radius: 15px;
+    background: #AE91EC;
+    color: #FFF;
+    border: 2px;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    max-width: 600px;
+    transition: 0.5s;
+
+}
+
+
+.vanilla_join:hover {
+    
+    transition: 0.5s;
+    border-radius: 15px;
+    background: #ae91eccc;
+    color: #FFF;
+    border: 2px;
+
+}
+
+
+.vanilla_join_btn {
+
+
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    max-width: 600px;
+    
+    text-decoration: none;
+
+}
+
+
+/* LOGIN */
+
+
+.auth_box {
+
+    margin: 100px auto;
+
+    width: 710px;
+    height: 500px;
+    background-color: #121212;
+
+    border: solid 2px;
+    border-radius: 40px;
+    
+}
+
+
+.auth_text {
+    margin-top: 60px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.auth_form {
+
+    margin-top: 40px;
+    margin-left: 110px;
+    margin-bottom: 25px;
+
+
+}
+
+
+.username_input, .password_input, .newPassword_input {
+
+    width: 480px;
+    height: 65px;
+    background: #1e1e1e;
+    border-radius: 15px;
+
+}
+
+.username_field, .password_field, .newPassword_field  {
+
+    margin-top: 10px;
+    margin-left: 15px;
+
+    width: 450px;
+    height: 45px;
+    
+    background: #1e1e1e;
+    border: 0;
+
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.password_input, .newPassword_input {
+    margin-top: 20px;
+}
+
+.auth_button {
+
+    width: 480px;
+    height: 55px;
+    border-radius: 15px;
+
+
+    background: #AE91EC;
+    border: 0;
+
+    margin-top: 30px;
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+
+}
+
+.auth_button:hover {
+
+    background-color: #AE91ECcc;
+    transition: 0.5s;
+
+}
+
+.not_registred {
+
+    
+    margin-left: 264px;
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    text-decoration: none;
+}
+
+
+.not_registred:hover {
+
+    transition: 0.5s;
+    color: #AE91EC;
+
+}
+
+
+/* REGISTER */
+
+
+.already_registred {
+
+    
+    margin-left: 235px;
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    text-decoration: none;
+}
+
+
+.already_registred:hover {
+
+    transition: 0.5s;
+    color: #AE91EC;
+
+}
+
+
+.reg_box {
+
+    margin: 100px auto;
+
+    width: 710px;
+    height: 550px;
+    background-color: #121212;
+
+    border: solid 2px;
+    border-radius: 40px;
+    
+}
+
+.accept_rules {
+
+    padding-top: 20px;
+
+}
+
+.checkbox_text {
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    text-decoration: none;
+
+    margin-left: 15px;
+
+
+
+}
+
+.checkbox {
+    width: 23px;
+    height: 23px;
+
+}
+
+.rule_link {
+
+
+    color: #AE91EC;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    text-decoration: none;
+
+}
+
+
+.checkbox:checked {
+
+    accent-color: #AE91EC;
+
+}
+
+
+
+/* ЛАУНЧЕР */
+
+
+.launcher {
+    padding-top: 80px;
+}
+
+.pre_launcher_intro {
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.launcher_intro {
+
+    color: #FFF;
+    padding-top: 20px;
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    max-width: 780px;
+
+}
+
+.download_buttons {
+
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.windows_download {
+
+    width: 400px;
+    height: 85px;
+    border-radius: 20px;
+    background: #AE91EC;
+    padding-top: 12px;
+    padding-left: 20px;
+    text-decoration: none;
+
+
+
+}
+
+.windows_text {
+
+    color: #FFF;
+
+    text-align: center;
+    vertical-align: middle;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.windows_icon {
+
+    width: 60px;
+
+}
+
+
+.other_download {
+
+    width: 400px;
+    height: 85px;
+    border-radius: 20px;
+    background: #1e1e1e;
+    padding-top: 12px;
+    padding-left: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+
+
+}
+
+.other_text {
+
+    color: #FFF;
+
+    text-align: center;
+    vertical-align: middle;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.other_icon {
+
+    width: 55px;
+
+}
+
+
+.windows_download:hover {
+
+    background-color: #AE91ECcc;
+    transition: 0.5s;
+
+}
+
+.other_download:hover {
+
+    background-color: #1e1e1ecc;
+    transition: 0.5s;
+
+}
+
+.java_download {
+
+    padding-top: 50px;
+
+}
+
+.java_warn {
+
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+.java_info {
+
+    color: #FFF;
+    padding-top: 10px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    padding-bottom: 30px;
+
+}
+
+.java_link {
+
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    text-decoration: none;
+}
+
+.java_link:hover {
+    color: #57F287;
+    transition: 0.5s;
 }

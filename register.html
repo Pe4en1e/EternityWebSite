@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eternity | Регистрация</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;900&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header_wrapper">
+
+                <div class="header_logo">
+                    <a href="/" class="header_logo_link">
+                        <img src="img/logo.svg" alt="" class="header_logo_pic">
+                    </a>
+                </div>
+    
+    
+                <nav class="header_nav">
+                    <ul class="header_list">
+                        <li class="header_item">
+                            <a href="/launcher.html" class="header_link">
+                                Лаунчер
+                            </a>
+                        </li>
+                        <li class="header_item">
+                            <a href="/login.html" class="header_link">
+                                Профиль
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="auth">
+            <section class="wrapper">
+                <div class="reg_box">
+                    <div class="auth_text">Регистрация</div>
+                    
+                    <form action="http://127.0.0.1:8000/api/registerUser" class="auth_form" method="post">
+                        <div class="username_input">
+                            <input type="text" class="username_field" placeholder="Nickname" name="username" required>
+                        </div>
+                        <div class="password_input">
+                            <input type="password" class="password_field" placeholder="Password" name="password" required>
+                        </div>
+                        <div class="accept_rules">
+                            <input type="checkbox" class="checkbox" required>
+                            <span class="checkmark"></span>
+                            <a class="checkbox_text">Я согласен с <a href="https://vk.com/@eternitysmp-rule" class="rule_link">правилами проекта</a></a>
+                        </div>
+                        <button class="auth_button">
+                            Зарегистрироваться
+                        </button>
+                    </form>
+                    <a href="/login.html" class="already_registred">Уже есть аккаунт?</a>
+
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+</body>
+</html>
