@@ -913,23 +913,27 @@ html{
 }
 
 
-.vk_btn {
-
-    margin-top: -50px;
-    margin-left: 1020px;
-
-}
-
-.vk_logo {
-
-    height: 40px;
-
-}
-
 
 /* END */
 
+.end_info {
+
+    margin-bottom: 60px;
+
+}
+
 .end_title {
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.end_subtitle {
 
     color: #FFF;
     font-family: Montserrat;
@@ -940,6 +944,117 @@ html{
 
 }
 
+
+.end_text {
+
+    padding-top: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 800px;
+
+}
+
+
+.end_ps {
+    padding-top: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    max-width: 800px;
+}
+
+
+
+.end_buttons {
+
+    margin-top: 40px;
+    display: flex;
+
+}
+
+
+.vk_end_button {
+
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    background: #4C75A3;
+    padding: 15px 15px;
+    margin-right: 50px;
+
+}
+
+.end_btn_pic {
+
+    height: 50px;
+
+}
+
+.tg_end_button {
+
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    background: #2AABEE;
+    padding: 15px 15px;
+    margin-right: 50px;
+
+}
+
+.dc_end_button {
+
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    background: #5865F2;
+    padding: 20px 15px;
+    margin-right: 50px;
+
+}
+
+.dcend_btn_pic {
+
+    height: 38px;
+    width: 50px;
+
+}
+
+
+
+.support_end_button {
+
+    height: 80px;
+    width: 310px;
+    border-radius: 25px;
+    background: #1e1e1e;
+    padding: 20px 20px;
+    
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.support_text {
+
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
 
 
 /* RULES */
